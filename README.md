@@ -1,21 +1,13 @@
-# GateWay
+# Endpoint Server
 
-**TODO: Add description**
+## Description
 
-## Installation
+  * This is Endpoint Server to handle RPC from Web Server
+  * Testing for new tweet endpoint.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gate_way` to your list of dependencies in `mix.exs`:
+## Start server
 
-```elixir
-def deps do
-  [
-    {:gate_way, "~> 0.1.0"}
-  ]
-end
-```
+  * Run endpoint server: `iex --sname gate_way --cookie aaa --erl "+P 1000000" -S mix`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/gate_way](https://hexdocs.pm/gate_way).
+
 
